@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 @font-face {
     font-family: Pixgamer;
     src: url("fonts/PixgamerRegular-OVD6A.ttf");
