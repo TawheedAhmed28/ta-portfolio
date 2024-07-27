@@ -9,17 +9,6 @@
 
 * {
     font-family: Pixgamer;
-    color: white;
-}
-
-h1 {
-    display: flex;
-    font-weight: 200;
-    font-size: 64px;
-    justify-content: center;
-    width: auto;
-}
-
-body {
+    color: black;
     background-color: black;
 }
