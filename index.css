@@ -9,6 +9,10 @@
 
 * {
     font-family: Pixgamer;
-    color: black;
+    color: transparent;
+    background-color: transparent;
+}
+
+body {
     background-color: black;
 }
