@@ -21,3 +21,12 @@ button {
 body {
     background-color: black;
 }
+
+img {
+    opacity: 0;
+    color: transparent;
+}
+
+a {
+    color: transparent;
+}
