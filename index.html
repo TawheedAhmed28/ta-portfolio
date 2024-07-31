@@ -90,9 +90,18 @@
 
             <div class="max-w-full flex flex-row flex-wrap">
 
-                <img src="" id="project-image" class="rounded-xl transition opacity-100 duration-1000 delay-[2200ms] border-4 border-purple-900 translate-y-2 my-6 mr-6 md:max-w-[720px]">
+                <div class="flex flex-col">
 
-                <div class="flex flex-col lg:max-w-[50%]">
+                    <img src="" id="project-image" class="rounded-xl transition opacity-100 duration-1000 delay-[2200ms] border-4 border-purple-900 translate-y-2 mt-6 mb-4 mr-6 md:max-w-[720px]">
+                    <div class="flex flex-row w-full justify-center pr-6">
+                        <p class="text-purple-100 px-3 cursor-pointer transition translate-y-2 duration-1000 delay-[2200ms] hover:text-yellow-300" id="prev-image">&#10094;</p>
+                        <p class="text-purple-100 px-12 text-[18px] transition translate-y-2 duration-1000 delay-[2200ms]" id="image-indicator">Image 1 of 1</p>
+                        <p class="text-purple-100 px-3 cursor-pointer transition translate-y-2 duration-1000 delay-[2200ms] hover:text-yellow-300" id="next-image">&#10095;</p>
+                    </div>
+
+                </div>
+
+                <div class="flex flex-col lg:max-w-[50%] mt-6">
                     <p class="transition opacity-100 translate-y-2 duration-1000 delay-[2300ms] font-thin text-purple-100 text-[20px] mb-6" id="project-description">Uhh... you weren't supposed to see this message. That means I goofed up somewhere. To any future employers that see this, even if you don't hire me, could you at least let me know you spotted this bug so I can fix it for next time? Thanks!</p>
                     <a class="transition opacity-100 translate-y-2 duration-1000 delay-[2300ms] font-thin text-purple-400 text-[20px] underline" href="" id="project-readme" target="_blank">README</a>
                     <a class="transition opacity-100 translate-y-2 duration-1000 delay-[2300ms] font-thin text-purple-400 text-[20px] underline" href="" id="deployed-project" target="_blank">Deployed project</a>
