@@ -7,6 +7,9 @@ function sleep(ms) {
 
 const body = document.querySelector("body")
 
+const linkedin = document.getElementById("linkedin-svg")
+const email = document.getElementById("email-svg")
+
 const prevButton = document.getElementById("previous-project")
 const projectNumberText = document.getElementById("project-number")
 const nextButton = document.getElementById("next-project")
@@ -36,6 +39,11 @@ window.onload = async () => {
     github.classList.add("delay-[2300ms]", "duration-1000")
     deploy.classList.add("delay-[2300ms]", "duration-1000")
 
+    linkedin.classList.remove("duration-400")
+    email.classList.remove("duration-400")
+    linkedin.classList.add("delay-[900ms]", "duration-1000")
+    email.classList.add("delay-[900ms]", "duration-1000")
+
     await sleep(2300)
     refactorCSS()
     
@@ -51,13 +59,13 @@ projectImage.src = `images/${projectNames[projectNumber - 1]}/${projectNames[pro
 
 const descriptions = [
     
-    "Project 1: Wordle - solo project, 1 week\nTechnologies: HTML, CSS, JavaScript\n\nI built a game from a given list using the technologies above. I decided on Wordle as I was already very familiar with the game. The functionality of checking the win criteria proved very challenging, so it allowed me to greatly expand my knowledge of JavaScript and HTML.",
+    "Wordle - solo project, 1 week\nTechnologies: HTML, CSS, JavaScript\n\nI built a game from a given list using the technologies above. I decided on Wordle as I was already very familiar with the game. The functionality of checking the win criteria proved very challenging, so it allowed me to greatly expand my knowledge of JavaScript and HTML.",
     
-    "Project 2: Capsaicin Station - solo project, 1 week\nTechnologies: EJS, CSS, JavaScript, MongoDB\n\nFull stack MEN app with CRUD functionality - I created an app where users can post and see information about chillies. I used two models, a user model and a chilli model, which was embedded within the user model to allow for each chilli to have “owners”.", 
+    "Capsaicin Station - solo project, 1 week\nTechnologies: EJS, CSS, JavaScript, MongoDB\n\nFull stack MEN app with CRUD functionality - I created an app where users can post and see information about chillies. I used two models, a user model and a chilli model, which was embedded within the user model to allow for each chilli to have “owners”.", 
     
-    "Project 3: Joystickipedia - paired project, 1 week\nTechnologies: JSX, JavaScript, React, CSS (Tailwind), React Select\n\nFull stack MERN app with CRUD functionality. Users can post games, and add them to a drop down list of genres. On each game, users can also add reviews. For this project, I focused more on the front end, and especially on review functionality. I wanted to allow users to provide a star rating, so using React.js to allow star emojis to represent rating values, and Tailwind to alter the opacity of the stars, I was able to create an easy to understand user interface for doing so.",
+    "Joystickipedia - paired project, 1 week\nTechnologies: JSX, JavaScript, React, CSS (Tailwind), React Select\n\nFull stack MERN app with CRUD functionality. Users can post games, and add them to a drop down list of genres. On each game, users can also add reviews. For this project, I focused more on the front end, and especially on review functionality. I wanted to allow users to provide a star rating, so using React.js to allow star emojis to represent rating values, and Tailwind to alter the opacity of the stars, I was able to create an easy to understand user interface for doing so.",
     
-    "Project 4: Pizza Delivery - solo project, 1 week\nTechnologies: Python, Django, React, CSS (Tailwind), React Select, JSX, Postgres\n\nFull stack Python-Django-SQL app with CRUD functionality. Users can post pizzas and add toppings to them from a drop down menu. Users can also post pizza orders, which also have CRUD functionality."
+    "Pizza Delivery - solo project, 1 week\nTechnologies: Python, Django, React, CSS (Tailwind), React Select, JSX, Postgres\n\nFull stack Python-Django-SQL app with CRUD functionality. Users can post pizzas and add toppings to them from a drop down menu. Users can also post pizza orders, which also have CRUD functionality."
     
 ]
 
@@ -124,6 +132,11 @@ function refactorCSS() {
     deploy.classList.remove("delay-[2300ms]", "duration-1000")
     github.classList.add("duration-400")
     deploy.classList.add("duration-400")
+
+    linkedin.classList.remove("delay-[900ms]", "duration-1000")
+    email.classList.remove("delay-[900ms]", "duration-1000")
+    linkedin.classList.add("duration-400")
+    email.classList.add("duration-400")
 
 }
 

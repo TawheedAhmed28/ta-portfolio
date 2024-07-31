@@ -22,9 +22,14 @@ body {
     background-color: black;
 }
 
-img {
+img, svg {
     opacity: 0;
     color: transparent;
+}
+
+svg {
+    fill: none;
+    stroke: none;
 }
 
 a {
