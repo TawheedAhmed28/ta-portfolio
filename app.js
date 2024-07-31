@@ -31,7 +31,12 @@ window.onload = async () => {
     prevImage.classList.add("delay-[2200ms]", "duration-1000")
     nextImage.classList.add("delay-[2200ms]", "duration-1000")
 
-    await sleep(2200)
+    github.classList.remove("duration-400")
+    deploy.classList.remove("duration-400")
+    github.classList.add("delay-[2300ms]", "duration-1000")
+    deploy.classList.add("delay-[2300ms]", "duration-1000")
+
+    await sleep(2300)
     refactorCSS()
     
 }
@@ -114,6 +119,11 @@ function refactorCSS() {
     nextImage.classList.remove("delay-[2200ms]", "duration-1000")
     prevImage.classList.add("duration-400")
     nextImage.classList.add("duration-400")
+
+    github.classList.remove("delay-[2300ms]", "duration-1000")
+    deploy.classList.remove("delay-[2300ms]", "duration-1000")
+    github.classList.add("duration-400")
+    deploy.classList.add("duration-400")
 
 }
 
