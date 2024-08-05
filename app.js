@@ -11,7 +11,7 @@ const linkedin = document.getElementById("linkedin-svg")
 const email = document.getElementById("email-svg")
 
 const aboutMeDescription = document.getElementById("about-me-description")
-const showMoreDescription = document.getElementById("show-about-me")
+let showMoreDescription = document.getElementById("show-about-me")
 
 const prevButton = document.getElementById("previous-project")
 const projectNumberText = document.getElementById("project-number")
@@ -162,19 +162,33 @@ function changePage() {
 }
 
 function changeImage() {
-
+    
     projectImage.src = `images/${projectNames[projectNumber - 1]}/${projectNames[projectNumber - 1]}${imagePage}.png`
     imageNumber.innerText = `Image ${imagePage} of ${projectImages[projectNumber - 1].length}`
 
 }
 
+let descriptionExtended = false
 function changeDescription() {
 
-    const lessDesc = `I first got an interest in coding since I first started gaming, I guess - I just didn't realise it at the time but I'd always been exploring with and messing with different aspects of games, like for example what each item in a game does.Now I understand games better than before, so when I looked at game mods or game files, I could make some sense of them, even before starting the Software Engineering Bootcamp at General Assembly. I had no knowledge of coding, but I sure had knowledge of games, and I could use that knowledge to know what the code does.Once I realised that this - the concept of trial and error and always messing with things until they do what you want them to - was essentially coding, I was determined to learn how to code and find a career in it... <span class="cursor-pointer transition opacity-100 translate-y-2 duration-1000 delay-1000 font-thin text-purple-400 text-[20px] underline hover:text-green-500" id="show-about-me">show more</span>`
+    const lessDesc = `I first got an interest in coding since I first started gaming, I guess - I just didn't realise it at the time but I'd always been exploring with and messing with different aspects of games, like for example what each item in a game does. Now I understand games better than before, so when I looked at game mods or game files, I could make some sense of them, even before starting the Software Engineering Bootcamp at General Assembly. I had no knowledge of coding, but I sure had knowledge of games, and I could use that knowledge to know what the code does. Once I realised that this - the concept of trial and error and always messing with things until they do what you want them to - was essentially coding, I was determined to learn how to code and find a career in it... <span class="cursor-pointer transition opacity-100 translate-y-2 duration-1000 delay-1000 font-thin text-purple-400 text-[20px] underline hover:text-green-500" id="show-about-me">show more</span>`
+
+    const moreDesc = `I first got an interest in coding since I first started gaming, I guess - I just didn't realise it at the time but I'd always been exploring with and messing with different aspects of games, like for example what each item in a game does. Now I understand games better than before, so when I looked at game mods or game files, I could make some sense of them, even before starting the Software Engineering Bootcamp at General Assembly. I had no knowledge of coding, but I sure had knowledge of games, and I could use that knowledge to know what the code does. Once I realised that this - the concept of trial and error and always messing with things until they do what you want them to - was essentially coding, I was determined to learn how to code and find a career in it.<br>
+    <div class="flex flex-col items-center">
+    <img src="images/elementor-placeholder-image.webp" class="rounded-xl md:max-w-[720px] opacity-100">
+    </div>
+    <span class="cursor-pointer transition opacity-100 translate-y-2 duration-1000 delay-1000 font-thin text-purple-400 text-[20px] underline hover:text-green-500" id="show-about-me">show less</span>`
+
+    descriptionExtended = !descriptionExtended
+    aboutMeDescription.innerHTML = descriptionExtended ? moreDesc : lessDesc
+
+    showMoreDescription = document.getElementById("show-about-me")
+    refactorCSS()
+    showMoreDescription.onclick = () => changeDescription()
 
 }
 
-// body.onclick = refactorCSS()
+showMoreDescription.onclick = () => changeDescription()
 
 prevButton.onclick = () => {
 
