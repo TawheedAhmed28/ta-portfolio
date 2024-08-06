@@ -172,7 +172,7 @@ function changeImage() {
 let descriptionExtended = false
 function changeDescription() {
 
-    const lessDesc = `My interest in coding began with my early experiences in gaming, though I didn't realise it at the time. I was constantly exploring and experimenting with different aspects of games, such as understanding the functionality of various in-game items. As my comprehension of games deepened, I found myself able to make sense of game mods and files, even before I embarked on the Software Engineering Bootcamp at General Assembly. While I had no formal knowledge of coding, my extensive familiarity with games allowed me to intuitively grasp the purpose of the code. Recognising that the principles of trial and error and continuous experimentation - core aspects of gaming - were also fundamental to coding, I became determined to learn how to code and pursue a career in this field. <span class="cursor-pointer transition opacity-100 translate-y-2 duration-1000 delay-1000 font-thin text-purple-400 text-[20px] underline hover:text-green-500" id="show-about-me">show more</span>`
+    const lessDesc = `My interest in coding began with my early experiences in gaming, though I didn't realise it at the time. I was constantly exploring and experimenting with different aspects of games, such as understanding the functionality of various in-game items. As my comprehension of games deepened, I found myself able to make sense of game mods and files, even before I embarked on the Software Engineering Bootcamp at General Assembly. While I had no formal knowledge of coding, my extensive familiarity with games allowed me to intuitively grasp the purpose of the code. Recognising that the principles of trial and error and continuous experimentation - core aspects of gaming - were also fundamental to coding, I became determined to learn how to code and pursue a career in this field. <a class="cursor-pointer transition opacity-100 translate-y-2 duration-1000 delay-1000 font-thin text-purple-400 text-[20px] underline hover:text-green-500" id="show-about-me" href="#about-me">show more</a>`
 
     const moreDesc = `I wrote my first ever line of code in March 2024, but I had been pursuing a career in software engineering long before then - I just hadn't realised it. So, just how does one prime themselves for a lifetime of coding without giving it a thought, let alone writing any code?
 
@@ -205,7 +205,7 @@ function changeDescription() {
 
     <span class="text-purple-300">Gardening</span> - I spend a lot of time in front of a screen so gardening is a nice outdoor hobby of mine. I love watching things grow and develop into something amazing and useful, thanks to the hard work I put in, whether that be plants or code!<br>
 
-    <span class="cursor-pointer transition opacity-100 translate-y-2 duration-1000 delay-1000 font-thin text-purple-400 text-[20px] underline hover:text-green-500" id="show-about-me">show less</span>`
+    <a class="cursor-pointer transition opacity-100 translate-y-2 duration-1000 delay-1000 font-thin text-purple-400 text-[20px] underline hover:text-green-500" id="show-about-me" href="#about-me">show less</a>`
 
     descriptionExtended = !descriptionExtended
     aboutMeDescription.innerHTML = descriptionExtended ? moreDesc : lessDesc
