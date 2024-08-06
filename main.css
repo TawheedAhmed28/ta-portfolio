@@ -571,6 +571,11 @@ video {
   margin-right: 1.5rem;
 }
 
+.my-4 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
 .my-6 {
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
@@ -579,11 +584,6 @@ video {
 .my-\[40px\] {
   margin-top: 40px;
   margin-bottom: 40px;
-}
-
-.my-4 {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
 }
 
 .mb-12 {
@@ -622,12 +622,12 @@ video {
   margin-top: 1.5rem;
 }
 
-.mt-\[6px\] {
-  margin-top: 6px;
-}
-
 .mt-\[5px\] {
   margin-top: 5px;
+}
+
+.mt-4 {
+  margin-top: 1rem;
 }
 
 .flex {
@@ -645,6 +645,10 @@ video {
 
 .max-w-full {
   max-width: 100%;
+}
+
+.grow {
+  flex-grow: 1;
 }
 
 .translate-y-2 {
@@ -666,10 +670,6 @@ video {
 
 .flex-wrap {
   flex-wrap: wrap;
-}
-
-.content-center {
-  align-content: center;
 }
 
 .content-between {
@@ -696,20 +696,12 @@ video {
   justify-content: space-around;
 }
 
-.justify-items-center {
-  justify-items: center;
-}
-
 .self-start {
   align-self: flex-start;
 }
 
 .self-center {
   align-self: center;
-}
-
-.justify-self-center {
-  justify-self: center;
 }
 
 .rounded {
@@ -786,6 +778,11 @@ video {
   padding-right: 1rem;
 }
 
+.px-\[25px\] {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
 .px-\[45px\] {
   padding-left: 45px;
   padding-right: 45px;
@@ -796,39 +793,16 @@ video {
   padding-bottom: 0.5rem;
 }
 
-.px-\[40px\] {
-  padding-left: 40px;
-  padding-right: 40px;
-}
-
-.px-\[30px\] {
-  padding-left: 30px;
-  padding-right: 30px;
-}
-
-.px-\[25px\] {
-  padding-left: 25px;
-  padding-right: 25px;
-}
-
-.pl-\[45px\] {
-  padding-left: 45px;
-}
-
-.pr-6 {
-  padding-right: 1.5rem;
-}
-
 .pt-\[10px\] {
   padding-top: 10px;
 }
 
-.text-\[18px\] {
-  font-size: 18px;
-}
-
 .text-\[20px\] {
   font-size: 20px;
+}
+
+.text-\[21px\] {
+  font-size: 21px;
 }
 
 .text-\[22px\] {
@@ -849,14 +823,6 @@ video {
 
 .text-\[60px\] {
   font-size: 60px;
-}
-
-.text-\[20\.5px\] {
-  font-size: 20.5px;
-}
-
-.text-\[21px\] {
-  font-size: 21px;
 }
 
 .font-thin {
@@ -1050,16 +1016,6 @@ a {
 @media (min-width: 1024px) {
   .lg\:max-w-\[50\%\] {
     max-width: 50%;
-  }
-
-  .lg\:px-\[\] {
-    padding-left: ;
-    padding-right: ;
-  }
-
-  .lg\:px-\[50px\] {
-    padding-left: 50px;
-    padding-right: 50px;
   }
 
   .lg\:px-\[150px\] {
