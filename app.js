@@ -174,7 +174,7 @@ function changeDescription() {
 
     const lessDesc = `My interest in coding began with my early experiences in gaming, though I didn't realise it at the time. I was constantly exploring and experimenting with different aspects of games, such as understanding the functionality of various in-game items. As my comprehension of games deepened, I found myself able to make sense of game mods and files, even before I embarked on the Software Engineering Bootcamp at General Assembly. While I had no formal knowledge of coding, my extensive familiarity with games allowed me to intuitively grasp the purpose of the code. Recognising that the principles of trial and error and continuous experimentation - core aspects of gaming - were also fundamental to coding, I became determined to learn how to code and pursue a career in this field. <a class="cursor-pointer transition opacity-100 translate-y-2 duration-1000 delay-1000 font-thin text-purple-400 text-[20px] underline hover:text-green-500" id="show-about-me" href="#about-me">show more</a>`
 
-    const moreDesc = `I wrote my first ever line of code in March 2024, but I had been pursuing a career in software engineering long before then - I just hadn't realised it. So, just how does one prime themselves for a lifetime of coding without giving it a thought, let alone writing any code?
+    const moreDesc = `I had been pursuing a career in software engineering for most of my life - I just hadn't realised it. So, just how does one prime themselves for a lifetime of coding without giving it a thought, let alone writing any code?
 
     It turns out the answer lies in my general thought process! I've always loved breaking everything down into steps and processes, even down to imagining a progress bar while I drink my morning coffee... that thought process brought me to gaming at a very young age.
 
@@ -187,11 +187,11 @@ function changeDescription() {
 
     <br><br>
 
-    At the age of 19, things started going south pretty rapidly... a bowel cancer diagnosis, followed by a resection surgery and 2 years of immunotherapy was not ideal for me, to say the least. While that time was quite unpleasant, it did allow me to appreciate and prioritise happiness over urgently seeking success. It was okay to wait for the right opportunity, and it would come by, sooner or later. <br><br>
+    At the age of 19, things became tough for me... many health problems left me in a difficult situation, but they also taught me that it was okay to wait for the right opportunity, and it would come by, sooner or later. <br><br>
 
-    Then comes the opportunity presenting itself, in anticlimactic fashion. One night, I was sat with my dad discussing my future plans, and how I felt stuck after finishing my immunotherapy. What comes next? How do I get back to normal now? What career path do I follow? After some unproductive brainstorming, we sat there stumped and a passing comment from my dad gave me an epiphany - "well, you game a lot, so why not learn about how the stuff you use all day works?" <br><br>
+   The opportunity came by after some unproductive brainstorming, when I sat with my dad to talk about my future after recovery, and a passing comment from my dad gave me an epiphany - "well, you game a lot, so why not learn about how the stuff you use all day works?" <br><br>
 
-    The very next day, I went searching for a beginner friendly course to enrol in. I stumbled upon the Software Engineering Bootcamp at General Assembly, and didn't look back. That takes me to now, with a good understanding of various programming languages and concepts. <br><br>
+    I then found the Software Engineering Bootcamp at General Assembly, and didn't look back. That takes me to now, with a good understanding of various programming languages and concepts. <br><br>
 
     I've always heard the saying, "if you love what you do, you'll never work a day in your life", but after finally finding my 'thing' in software engineering, I'd argue that the saying is just not true. Coding is hard work, but I really enjoy it. So instead, how about... "if you love what you do, you'll work as hard as you can to keep doing it"? <br><br>
 
@@ -199,9 +199,9 @@ function changeDescription() {
 
     <span class="text-purple-400 text-[22px]">Aside from coding, I have other interests too:</span><br><br>
 
-    <span class="text-purple-300">Gaming</span> - Obviously. It's the reason why I'm entering this field of work! There's so much variety with games, it's practically impossible to be bored.<br><br>
+    <span class="text-purple-300">Gaming</span> - Obviously. It's the reason why I'm entering this field of work! There's so much variety with games, it's practically impossible to be bored.<br>
 
-    <span class="text-purple-300">Football</span> - I've always been around a family of football fans, so I watch football and also play, though I'm no athlete :/<br><br>
+    <span class="text-purple-300">Football</span> - I've always been around a family of football fans, so I watch football and also play, though I'm no athlete :/<br>
 
     <span class="text-purple-300">Gardening</span> - I spend a lot of time in front of a screen so gardening is a nice outdoor hobby of mine. I love watching things grow and develop into something amazing and useful, thanks to the hard work I put in, whether that be plants or code!<br>
 
