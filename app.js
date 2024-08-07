@@ -193,7 +193,7 @@ function changeDescription() {
 
     I then found the Software Engineering Bootcamp at General Assembly, and didn't look back. That takes me to now, with a good understanding of various programming languages and concepts. <br><br>
 
-    I've always heard the saying, "if you love what you do, you'll never work a day in your life", but after finally finding my 'thing' in software engineering, I'd argue that the saying is just not true. Coding is hard work, but I really enjoy it. So instead, how about... "if you love what you do, you'll work as hard as you can to keep doing it"? <br><br>
+    I've always heard the saying, "if you love what you do, you'll never work a day in your life", but after finally finding my 'thing' in software engineering, I'd argue that the saying is just not true. Coding is hard work, but I really enjoy it. So instead, how about... "if you love what you do, you'll work hard to keep doing it"? <br><br>
 
     I'm really looking forward to what the future holds for me as a software engineer, but maybe that's because I know the future holds more code :) <br><br>
 
