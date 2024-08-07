@@ -82,7 +82,7 @@ const readmes = [
 
     "https://github.com/TawheedAhmed28/chilli-database-project",
 
-    "https://github.com/KizzaThorley/gamereview-project-frontend",
+    "https://github.com/KizzaThorley/gamereview-project-frontend/blob/main/TA-README/TA-README.md",
 
     "https://github.com/TawheedAhmed28/pizza-delivery-project-frontend"
 
