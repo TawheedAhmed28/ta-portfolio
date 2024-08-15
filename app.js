@@ -180,7 +180,7 @@ function changeDescription() {
 
     <br>
     <div class="flex flex-col items-center">
-    <img src="images/elementor-placeholder-image.webp" class="rounded-xl md:max-w-[720px] opacity-100 transition duration-1000 translate-y-2 mt-4 mb-6">
+    <img src="images/me-gaming.jpg" class="rounded-xl border-4 border-purple-900 md:max-w-[900px] opacity-100 transition duration-1000 translate-y-2 mt-4 mb-6">
     </div>
 
     Gaming very quickly became my life, and it still very much is. I have always been drawn towards strategy games as, again, I enjoyed honing my problem solving skills, and getting a little rush of happiness with each solved problem!
