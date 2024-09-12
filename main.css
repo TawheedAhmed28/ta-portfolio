@@ -586,6 +586,11 @@ video {
   margin-bottom: 40px;
 }
 
+.my-3 {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
 .mb-12 {
   margin-bottom: 3rem;
 }
@@ -630,6 +635,18 @@ video {
   margin-top: 5px;
 }
 
+.mb-3 {
+  margin-bottom: 0.75rem;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
+.mb-9 {
+  margin-bottom: 2.25rem;
+}
+
 .flex {
   display: flex;
 }
@@ -653,6 +670,16 @@ video {
 
 .translate-y-2 {
   --tw-translate-y: 0.5rem;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.translate-y-1 {
+  --tw-translate-y: 0.25rem;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.translate-y-3 {
+  --tw-translate-y: 0.75rem;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
@@ -825,6 +852,14 @@ video {
   font-size: 60px;
 }
 
+.text-\[26px\] {
+  font-size: 26px;
+}
+
+.text-\[23px\] {
+  font-size: 23px;
+}
+
 .font-thin {
   font-weight: 100;
 }
@@ -852,6 +887,10 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-\[23xp\] {
+  color: 23xp;
 }
 
 .underline {
@@ -949,6 +988,7 @@ video {
   color: transparent;
   background-color: transparent;
   border-width: 0px;
+  letter-spacing: 1px;
 }
 
 button {
@@ -971,6 +1011,10 @@ svg {
 
 a {
   color: transparent;
+}
+
+p {
+  font-size: 23px !important;
 }
 
 .hover\:border-yellow-300:hover {
@@ -1011,9 +1055,22 @@ a {
     max-width: 900px;
   }
 
+  .md\:translate-y-3 {
+    --tw-translate-y: 0.75rem;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  }
+
   .md\:px-\[45px\] {
     padding-left: 45px;
     padding-right: 45px;
+  }
+
+  .md\:text-\[25px\] {
+    font-size: 25px;
+  }
+
+  .md\:text-\[26px\] {
+    font-size: 26px;
   }
 }
 
