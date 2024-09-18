@@ -9,6 +9,7 @@ const body = document.querySelector("body")
 
 const linkedin = document.getElementById("linkedin-svg")
 const email = document.getElementById("email-svg")
+const codewars = document.getElementById("codewars-svg")
 
 const aboutMe = document.getElementById("about-me")
 const aboutMeDescription = document.getElementById("about-me-description")
@@ -45,8 +46,10 @@ window.onload = async () => {
 
     linkedin.classList.remove("duration-400")
     email.classList.remove("duration-400")
+    codewars.classList.remove("duration-400")
     linkedin.classList.add("delay-[900ms]", "duration-1000")
     email.classList.add("delay-[900ms]", "duration-1000")
+    codewars.classList.add("delay-[900ms]", "duration-1000")
 
     showMoreDescription.classList.remove("duration-400")
     showMoreDescription.classList.add("delay-1000", "duration-1000")
@@ -142,8 +145,10 @@ function refactorCSS() {
 
     linkedin.classList.remove("delay-[900ms]", "duration-1000")
     email.classList.remove("delay-[900ms]", "duration-1000")
+    codewars.classList.remove("delay-[900ms]", "duration-1000")
     linkedin.classList.add("duration-400")
     email.classList.add("duration-400")
+    codewars.classList.add("duration-400")
 
     showMoreDescription.classList.remove("delay-1000", "duration-1000")
     showMoreDescription.classList.add("duration-400")
